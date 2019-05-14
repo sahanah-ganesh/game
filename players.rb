@@ -1,17 +1,8 @@
 class Player
 
-  def player_name(name)
+  def initialize(name)
     @player_name = gets.chomp
+    @player_lives = 3
   end
 
-  def player_life
-    @player_life === 3
-  end 
-
-  def player_answer(answer)
-    @player_answer = gets.chomp
-  end
-
-  
-  
 end
