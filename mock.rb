@@ -1,27 +1,18 @@
 @players = [
   {
-    name: name1,
-    life: life1
-  },
-  {
-    name: name2,
-    life: life2
+    name: name,
+    start_life: 3,
+    current_life: num
+
   }
 ]
 
 @games = [
   {
-    question_id: 1 (random(1-20)),
-    problem: problem1,
-    correct_answer: correct1,
-    answer1: answer1,
-    answer2: answer2,
-  },
-  {
-    question_id: 2,
-    problem: problem2,
-    correct_answer: correct2,
-    answer1: answer1,
-    answer2: answer2
+    random1: random number (1 - 20),
+    random2: random number (1 - 20),
+    correct_answer: correct,
+    answer1: player1_answer,
+    answer2: player2_answer
   }
 ]

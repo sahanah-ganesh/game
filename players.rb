@@ -6,5 +6,4 @@ class Player
     @start_lives = 3
   end
 
-
 end

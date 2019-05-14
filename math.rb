@@ -21,11 +21,12 @@ players
           show player score
 
 games
--state: question_id (random 1-20), problem, correct_answer, player1_answer, player2_answer
--methods: function to display random number (1 - 20) as question_id,
+-state: random1, random2, correct_answer, player1_answer, player2_answer
+-methods: function to display random number (1 - 20) as random1 and random2 (result is string of math problem)
           function to check if player_answer (USER_INPUT) === correct_answer
-            if match, generate another random number (1-20) as question_id
-              else no match, player who answered loses 1 life, generate another random number (1-20) as question_id
+          if match, show scores, generate two more random numbers (1-20) as math problem string
+          else no match, player who answered loses 1 life, show scores, generate another random number (1-20) as question_id
+          continue until player1 or player2 lives === 0, show winner & game over
 
 
 
